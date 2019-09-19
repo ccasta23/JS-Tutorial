@@ -13,55 +13,55 @@ El HTML DOM es un modelo de objetos para HTML. Define:
 - Métodos para todos los elementos HTML
 - Eventos para todos los elemntos HTML
 
-[DOM W3Schools](https://www.w3schools.com/js/js_htmldom.asp)
+- [DOM W3Schools](https://www.w3schools.com/js/js_htmldom.asp)
 
 ## Selectores de Objetos (JavaScript)
 
 En el DOM, todos los elementos HTML están definidos como objetos, por ende podemos seleccionarlos y obtener una referencia de ellos en el código JS.  
 
-[Selectores W3Schools](https://www.w3schools.com/js/js_htmldom_methods.asp)
+- [Selectores W3Schools](https://www.w3schools.com/js/js_htmldom_methods.asp)
 
-[Query Selector JS MDN](https://developer.mozilla.org/es/docs/Web/API/Document/querySelector)
+- [Query Selector JS MDN](https://developer.mozilla.org/es/docs/Web/API/Document/querySelector)
 
 ## Cambiar atributos y propiedades de los objetos
 
 Al tener la referencia de los elementos en JS tenemos la posibilidad de modificar el valor de sus atributos y propiedades.
 
-[Elementos HTML con sus atributos](https://developer.mozilla.org/es/docs/Web/HTML)
-[Modificar atributos W3Schools](https://www.w3schools.com/js/js_htmldom_html.asp)
-[Propiedades CSS de elementos HTML](https://developer.mozilla.org/en-US/docs/Learn/CSS)
-[Modificar propiedades CSS W3Schools](w3schools.com/js/js_htmldom_css.asp)
-[Repositorio de imágenes](https://imgur.com)
+- [Elementos HTML con sus atributos](https://developer.mozilla.org/es/docs/Web/HTML)
+- [Modificar atributos W3Schools](https://www.w3schools.com/js/js_htmldom_html.asp)
+- [Propiedades CSS de elementos HTML](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+- [Modificar propiedades CSS W3Schools](w3schools.com/js/js_htmldom_css.asp)
+- [Repositorio de imágenes](https://imgur.com)
 
 ## Eventos de elementos HTML
 
 Código Javascript puede ser ejecutado cuando un evento ocurre a un elemento. Por ejemplo cuando un usuario hace clic.
 
-[Eventos W3Schools](https://www.w3schools.com/js/js_htmldom_events.asp)
-[Eventos (Event Listener)](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
-[Referencia de eventos](https://developer.mozilla.org/es/docs/Web/Events)
+- [Eventos W3Schools](https://www.w3schools.com/js/js_htmldom_events.asp)
+- [Eventos (Event Listener)](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+- [Referencia de eventos](https://developer.mozilla.org/es/docs/Web/Events)
 
 ## Navegación entre nodos
 
 Con el HTML DOM, puedes navegar el arbol de nodos usando la relación entre ellos.
 
-[Navegación DOM](https://www.w3schools.com/js/js_htmldom_navigation.asp)
+- [Navegación DOM](https://www.w3schools.com/js/js_htmldom_navigation.asp)
 
 ## Asincronismo
 
 JavaScript sólo puede hacer una cosa a la vez, sin embargo; es capaz de delegar la ejecución de ciertas funciones a otros procesos. Este modelo de concurrencia se llama EventLoop.
 
-[Event Loop explicado por Platzi](https://platzi.com/clases/1339-fundamentos-javascript/12957-como-funciona-el-asincronismo-en-javascript/)
-[Promesas MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Promise)
-[Async](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/funcion_asincrona)
-[Await](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/await)
+- [Event Loop explicado por Platzi](https://platzi.com/clases/1339-fundamentos-javascript/12957-como-funciona-el-asincronismo-en-javascript/)
+- [Promesas MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Promise)
+- [Async](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/funcion_asincrona)
+- [Await](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Operadores/await)
 
 ## Llamados HTTP
 
 Normalmente las aplicaciones desarrolladas en Javascript (Del lado del cliente), tendrán que comunicarse con otras aplicaciones realizando llamados HTTP, para ello ECS6 entrega el método FETCH
 
-[Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
-[Utilizando Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch)
+- [Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API)
+- [Utilizando Fetch](https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Utilizando_Fetch)
 
 ## API's Públicas
 
