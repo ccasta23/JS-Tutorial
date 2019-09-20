@@ -30,7 +30,7 @@ Al tener la referencia de los elementos en JS tenemos la posibilidad de modifica
 - [Elementos HTML con sus atributos](https://developer.mozilla.org/es/docs/Web/HTML)
 - [Modificar atributos W3Schools](https://www.w3schools.com/js/js_htmldom_html.asp)
 - [Propiedades CSS de elementos HTML](https://developer.mozilla.org/en-US/docs/Learn/CSS)
-- [Modificar propiedades CSS W3Schools](w3schools.com/js/js_htmldom_css.asp)
+- [Modificar propiedades CSS W3Schools](https://w3schools.com/js/js_htmldom_css.asp)
 - [Repositorio de imágenes](https://imgur.com)
 
 ## Eventos de elementos HTML
