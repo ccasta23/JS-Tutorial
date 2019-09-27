@@ -27,20 +27,35 @@ async function obtenerDatos(url) {
     return data
 }
 
+/**
+ * Retorna una cadena HTML con una lista de personajes y un botón de anterior y siguiente si recibe las URL
+ * @param {string} url API a ser ejecutada 
+ */
 async function listarPersonajes(url) {
     let lista = `<ul class="collection with-header">
-      <li class="collection-header"><h4>Nombres de Personajes</h4></li>`
+      <li class="collection-header indigo lighten-2"><h4>Nombre de Personajes de StarWars (SWAPI)</h4></li>`
     let personajes = await obtenerDatos(url)
-    let arregloPersonajes = personajes.results
-    for (let i = 0; i < arregloPersonajes.length; i++) {
+        //let arregloPersonajes = personajes.results //Forma 1 de recorrer el arreglo de resultados
+        // for (let i = 0; i < arregloPersonajes.length; i++) {
+        //     lista += `<li class="collection-item">
+        //     <div>${arregloPersonajes[i].name}</div></li>`
+        // }
+    let numeroPersonaje = 1;
+    for (const personaje of personajes.results) { //Forma 2 de recorrer el arreglo de resultados
         lista += `<li class="collection-item">
-        <div>${arregloPersonajes[i].name}</div></li>`
+         <div><strong>${numeroPersonaje}. Nombre:</strong> ${personaje.name}. <strong>Género: </strong> ${personaje.gender}</div></li>`
+        numeroPersonaje++
     }
-    lista += '</ul>'
-    if (personajes.next) {
-        lista += `<a id ="btn-siguiente" 
-                class="waves-effect waves-light btn"
-                data-url="${personajes.next}">Siguiente</a>`
+    lista += '</ul><div class="row">'
+    if (personajes.previous) { //Agregar un botón pata la página anterior
+        lista += `<div class="col s6"><a id ="btn-anterior" 
+                class="waves-effect waves-light btn red darken-2"
+                data-url="${personajes.next}"><i class="material-icons left">skip_previous</i>Anterior</a></div>`
+    }
+    if (personajes.next) { //Agregar un botón pata la página siguiente
+        lista += `<div class="col s6"><a id ="btn-siguiente" 
+                class="waves-effect waves-light btn indigo"
+                data-url="${personajes.next}"><i class="material-icons right">skip_next</i>Siguiente</a></div></div>`
     }
     return lista
 }
