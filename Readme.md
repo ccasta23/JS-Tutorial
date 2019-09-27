@@ -39,7 +39,9 @@ Código Javascript puede ser ejecutado cuando un evento ocurre a un elemento. Po
 
 - [Eventos W3Schools](https://www.w3schools.com/js/js_htmldom_events.asp)
 - [Eventos (Event Listener)](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
-- [Referencia de eventos](https://developer.mozilla.org/es/docs/Web/Events)
+- [Eventos addEventListener](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
+- [Referencia de eventos MDN](https://developer.mozilla.org/es/docs/Web/Events)
+- [Referencia de eventos W3Schools](https://www.w3schools.com/jsref/dom_obj_event.asp)
 
 ## Navegación entre nodos
 
