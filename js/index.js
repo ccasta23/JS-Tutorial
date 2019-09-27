@@ -50,7 +50,7 @@ async function listarPersonajes(url) {
     if (personajes.previous) { //Agregar un botón pata la página anterior
         lista += `<div class="col s6"><a id ="btn-anterior" 
                 class="waves-effect waves-light btn red darken-2"
-                data-url="${personajes.next}"><i class="material-icons left">skip_previous</i>Anterior</a></div>`
+                data-url="${personajes.previous}"><i class="material-icons left">skip_previous</i>Anterior</a></div>`
     }
     if (personajes.next) { //Agregar un botón pata la página siguiente
         lista += `<div class="col s6"><a id ="btn-siguiente" 
@@ -63,9 +63,18 @@ async function listarPersonajes(url) {
 async function main(url) {
     let lista = await listarPersonajes(url)
     document.getElementById("informacion").innerHTML = lista
-    document.getElementById("btn-siguiente").addEventListener("click", function() {
-        main(this.dataset.url)
-    })
+    let btnSiguiente = document.getElementById("btn-siguiente")
+    let btnAnterior = document.getElementById("btn-anterior")
+    if (btnSiguiente) {
+        btnSiguiente.addEventListener("click", function() {
+            main(this.dataset.url)
+        })
+    }
+    if (btnAnterior) {
+        btnAnterior.addEventListener("click", function() {
+            main(this.dataset.url)
+        })
+    }
 }
 
 main('https://swapi.co/api/people/')
