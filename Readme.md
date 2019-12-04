@@ -1,4 +1,4 @@
-# Proyecto Análisis y Diseño de Sistemas de Información II - Universidad de Caldas
+# Funcionalidades de Javascript - Universidad de Caldas
 
 ## Enlaces de Interés javascript
 
